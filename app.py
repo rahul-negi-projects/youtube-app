@@ -10,7 +10,7 @@ from youtube_transcript_api import YouTubeTranscriptApi
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 
-## streamlit app
+## streamlit app ##
 st.set_page_config(page_title="Langchain: Summarize text from Youtube or Website", page_icon="🦜🔗")
 st.title("🦜🔗 Langchain: Summarize text from Youtube or Website")
 st.subheader('Summarize URL')
